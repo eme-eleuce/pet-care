@@ -1,0 +1,31 @@
+export const Fotos = [
+    {
+      image:
+      require('../../public/photos/foto.jpg'),
+    },
+    {
+      image:
+      require('../../public/photos/foto2.jpg'),
+    },
+    {
+      image:
+      require('../../public/photos/foto3.jpg'),
+    },
+    {
+      image:
+      require('../../public/photos/foto4.jpg'),
+    },
+    {
+      image:
+      require('../../public/photos/foto5.jpg'),
+    },
+    {
+      image:
+      require('../../public/photos/foto5.jpg'),
+    },
+    {
+      image:
+      require('../../public/photos/foto5.jpg'),
+    },
+  ];
+  

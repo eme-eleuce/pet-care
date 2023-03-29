@@ -3,4 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+
+  images: {
+    domains: [
+      'cbupghhlrkrzqpwiaulr.supabase.co',
+      'images.unsplash.com',
+    ]
+  }
+}
