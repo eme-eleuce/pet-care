@@ -1,31 +1,28 @@
 export const Fotos = [
     {
       image:
-      require('../../public/photos/foto.jpg'),
+      require('../photos/foto.jpg'),
     },
     {
       image:
-      require('../../public/photos/foto2.jpg'),
+      require('../photos/foto2.jpg'),
     },
     {
       image:
-      require('../../public/photos/foto3.jpg'),
+      require('../photos/foto3.jpg'),
     },
     {
       image:
-      require('../../public/photos/foto4.jpg'),
+      require('../photos/foto4.jpg'),
     },
     {
       image:
-      require('../../public/photos/foto5.jpg'),
+      require('../photos/foto5.jpg'),
     },
     {
       image:
-      require('../../public/photos/foto5.jpg'),
+      require('../photos/foto6.jpg'),
     },
-    {
-      image:
-      require('../../public/photos/foto5.jpg'),
-    },
+    
   ];
   
