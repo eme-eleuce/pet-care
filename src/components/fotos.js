@@ -1,7 +1,7 @@
 export const Fotos = [
     {
       image:
-      require('../photos/foto.jpg'),
+      require('../photos/foto8.jpg'),
     },
     {
       image:

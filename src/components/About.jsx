@@ -4,8 +4,8 @@ import Logo1 from '../photos/foto1.jpg';
 
 const About = () => {
   return (
-    <div id='about' className="relative w-full  pb-7 md:pt-10 md:pb-24 mt-10">
-  <div className=" relative mx-auto md:mx-[8rem] flex px-5 py-24 md:flex-row flex-col items-center">
+    <div id='about' className="relative w-full  pb-7 md:pt-10 md:pb-4 mt-10">
+  <div className=" relative mx-auto md:mx-[8rem] flex px-7 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
     <Image src={Logo1} className='w-full h-full rounded-full' alt='/'/>
     </div>

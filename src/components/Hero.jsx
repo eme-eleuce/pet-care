@@ -25,8 +25,8 @@ const Hero = ({ slides }) => {
   }
 
   return (
-    <div className='flex items-center justify-center h-screen  bg-cover bg-center bg-fixed '>
-      <div className='relative flex justify-center p-4 mt-6'>
+    <div className='flex items-center justify-center md:h-screen h-[40rem]  bg-cover bg-center bg-fixed '>
+      <div className='relative flex justify-center md:mt-[3rem] mt-10'>
 
       {Fotos?.map((slide, index) => {
         return (
@@ -47,7 +47,7 @@ const Hero = ({ slides }) => {
                 <Image
                   src={slide.image}
                   alt='/'
-                  className='md:w-[800px] md:h-[700px] w-[500px] h-[550px]'
+                  className='md:w-[1120px] md:h-screen w-[520px] h-[370px]'
                 />
               )}
               <FaArrowCircleRight
