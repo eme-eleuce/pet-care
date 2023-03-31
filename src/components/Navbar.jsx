@@ -35,14 +35,17 @@ const Navbar = () => {
                 </li>
                 </Link>
             
-                
+                <Link href='/#services' scroll={false}>
                 <li className='p-3 text-3xl ml-4 hover:text-[#cb5ab8]'>
                  Services
                 
                 </li>
+                </Link>
+                <Link href='/#mission' scroll={false}>
                 <li className='p-3 text-3xl ml-3  hover:text-[#cb5ab8]'>
                 Mission
                 </li>
+                </Link>
                 
             </ul>
             </div>   

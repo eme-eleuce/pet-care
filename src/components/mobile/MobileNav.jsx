@@ -22,10 +22,10 @@ const MobileNav = () => {
         <Link href='/#about' scroll={false}> About</Link>
         </li>
         <li onClick={() => setNav(false)} className='p-4 hover:text-gray-400 text-4xl'>
-           Services
+        <Link href='/#services' scroll={false}> Services</Link>
         </li>
         <li onClick={() => setNav(false)} className='p-4 hover:text-gray-400 text-4xl'>
-           Mission
+        <Link href='/#mission' scroll={false}> Mission</Link>
         </li>
     </ul>
 

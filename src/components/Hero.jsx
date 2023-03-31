@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import {IoIosArrowDown} from 'react-icons/io';
 import Link from "next/link";
 import Image from "next/image";
-import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 import { Fotos } from './fotos'
-
+import { HiOutlineArrowLeft, HiOutlineArrowRight} from 'react-icons/hi';
 
 
 
@@ -25,8 +24,9 @@ const Hero = ({ slides }) => {
   }
 
   return (
-    <div className='flex items-center justify-center md:h-screen h-[40rem]  bg-cover bg-center bg-fixed '>
-      <div className='relative flex justify-center md:mt-[3rem] mt-10'>
+    <div className='flex items-center justify-center h-screen mb-12 bg-cover bg-center bg-fixed '>
+      
+      <div className='flex justify-center md:mt-[7rem] mt-10'>
 
       {Fotos?.map((slide, index) => {
         return (
@@ -38,7 +38,7 @@ const Hero = ({ slides }) => {
                 : 'opacity-0'
             }
           >
-              <FaArrowCircleLeft
+              <HiOutlineArrowLeft
                 onClick={prevSlide}
                 className='absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]'
                 size={50}
@@ -47,10 +47,10 @@ const Hero = ({ slides }) => {
                 <Image
                   src={slide.image}
                   alt='/'
-                  className='md:w-[1120px] md:h-screen w-[520px] h-[370px]'
+                  className=' h-screen w-screen object-cover'
                 />
               )}
-              <FaArrowCircleRight
+              <HiOutlineArrowRight
                 onClick={nextSlide}
                 className='absolute top-[50%] right-[30px] text-white/70 cursor-pointer select-none z-[2]'
                 size={50}

@@ -5,24 +5,13 @@ export const Fotos = [
     },
     {
       image:
-      require('../photos/foto2.jpg'),
+      require('../photos/foto9.jpg'),
     },
     {
       image:
-      require('../photos/foto3.jpg'),
+      require('../photos/foto11.jpg'),
     },
-    {
-      image:
-      require('../photos/foto4.jpg'),
-    },
-    {
-      image:
-      require('../photos/foto5.jpg'),
-    },
-    {
-      image:
-      require('../photos/foto6.jpg'),
-    },
+  
     
   ];
   
