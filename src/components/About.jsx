@@ -9,7 +9,7 @@ const About = () => {
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
     <Image src={Logo1} className='w-full h-full rounded-full' alt='/'/>
     </div>
-    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center text-lg md:text-xl">
+    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center text-xl md:text-xl">
       {/*<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
         
       </h1> */}
