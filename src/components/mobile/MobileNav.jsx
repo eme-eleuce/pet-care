@@ -20,16 +20,16 @@ const MobileNav = () => {
   </div>
     <div className={nav ? 'sm:hidden absolute top-0 bottom-0 left-0 right-0 w-full h-screen flex justify-center items-center bg-teal-500 text-center ease-in duration-300' : 'sm:hidden absolute top-0 bottom-0 left-[-100%] right-0 w-full h-screen flex justify-center items-center bg-teal-500 text-center ease-in duration-300'}>
     <ul>
-        <li onClick={() => setNav(false)} className='p-4 hover:text-gray-600 text-5xl mb-5'>
+        <li onClick={() => setNav(false)} className='p-4 hover:text-[#ef476f] text-5xl mb-5'>
         <Link href='/#about' scroll={false}> About</Link>
         </li>
-        <li onClick={() => setNav(false)} className='p-4 hover:text-gray-600 text-5xl mb-5'>
+        <li onClick={() => setNav(false)} className='p-4 hover:text-[#ef476f] text-5xl mb-5'>
         <Link href='/#services' scroll={false}> Services</Link>
         </li>
-        <li onClick={() => setNav(false)} className='p-4 hover:text-gray-600 text-5xl mb-5'>
+        <li onClick={() => setNav(false)} className='p-4 hover:text-[#ef476f] text-5xl mb-5'>
         <Link href='/#mission' scroll={false}> Mission</Link>
         </li>
-        <li onClick={() => setNav(false)} className='p-4 hover:text-gray-600 text-5xl mb-5'>
+        <li onClick={() => setNav(false)} className='p-4 hover:text-[#ef476f] text-5xl mb-3'>
         <a href='https://instagram.com/soffpaws_?igshid=YmMyMTA2M2Y='
           target={"_blank"}
           rel={"noreferrer"} 
@@ -37,7 +37,7 @@ const MobileNav = () => {
             <GrInstagram size={40} />
           </a>
         </li>
-        <li onClick={() => setNav(false)} className='p-4 hover:text-gray-600 text-5xl mb-5'>
+        <li onClick={() => setNav(false)} className='p-4 hover:text-[#ef476f] text-5xl mb-5'>
         <a href='https://api.whatsapp.com/send?phone=17864911836&text=Hi!%20I%20want%20more%20information%20about%20your%20services%2C%20thank%20you%20%F0%9F%90%B6'
           target={"_blank"}
           rel={"noreferrer"} 

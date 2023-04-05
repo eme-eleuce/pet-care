@@ -9,7 +9,11 @@ export const Fotos = [
     },
     {
       image:
-      require('../photos/foto11.jpg'),
+      require('../photos/foto12.jpg'),
+    },
+    {
+      image:
+      require('../photos/foto13.jpg'),
     },
   
     

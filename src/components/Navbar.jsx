@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className='hidden md:flex grow-[2] items-center justify-center ml-5'>
                     <ul  className='hidden sm:flex '>
                     <Link href='/#about' scroll={false}>
-                <li className='p-3  text-3xl hover:text-[#cb5ab8] font-bold'>
+                <li className='p-3  text-3xl hover:text-[#ef476f] font-bold'>
                
                       About
                 
@@ -36,13 +36,13 @@ const Navbar = () => {
                 </Link>
             
                 <Link href='/#services' scroll={false}>
-                <li className='p-3 text-3xl ml-4 hover:text-[#cb5ab8] font-bold'>
+                <li className='p-3 text-3xl ml-4 hover:text-[#ef476f] font-bold'>
                  Services
                 
                 </li>
                 </Link>
                 <Link href='/#mission' scroll={false}>
-                <li className='p-3 text-3xl ml-4  hover:text-[#cb5ab8] font-bold'>
+                <li className='p-3 text-3xl ml-4  hover:text-[#ef476f] font-bold'>
                 Mission
                 </li>
                 </Link>

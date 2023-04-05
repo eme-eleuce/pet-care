@@ -13,7 +13,7 @@ const About = () => {
       {/*<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
         
       </h1> */}
-      <p className="mb-5 leading-relaxed text-justify">Hi there! My name is Patricia and I am the founder of <a className='text-pink-500 font-extrabold'>Soft Paws</a>🐾. Ever since I was a little girl, I have had a passion for animals, and I always knew that my life&apos;s path would involve them. After years of working in various animal-related fields, I decided to start my own pet sitting company to offer high-quality pet care services to the local community. </p>
+      <p className="mb-5 leading-relaxed text-justify">Hi there! My name is Patricia and I am the founder of <a className='text-[#ef476f] font-extrabold'>Soft Paws</a>🐾. Ever since I was a little girl, I have had a passion for animals, and I always knew that my life&apos;s path would involve them. After years of working in various animal-related fields, I decided to start my own pet sitting company to offer high-quality pet care services to the local community. </p>
       <p className='mb-8 leading-relaxed text-justify'>With over 5 years of experience in pet care, I have learned that every animal is unique and requires personalized attention. That&apos;s why I make sure to get to know each pet and their personality to provide them with the best possible care.</p>
       <div className="flex justify-center">
         {/*<button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
