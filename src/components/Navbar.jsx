@@ -12,7 +12,7 @@ const Navbar = () => {
     }
     
   return (
-    <div  className='fixed top-0 left-0 w-full z-10 ease duration-500 bg-black text-white'>
+    <div  className='fixed top-0 left-0 w-full z-10 ease duration-500 bg-teal-500 text-black'>
         <div className=' max-w-[1240px] h-[5rem] items-center w-full flex  p-4 mb-[2px] z-10 '>
             {/*Lado Izquierdo */}
             
@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className='hidden md:flex grow-[2] items-center justify-center ml-5'>
                     <ul  className='hidden sm:flex '>
                     <Link href='/#about' scroll={false}>
-                <li className='p-3  text-3xl hover:text-[#cb5ab8]'>
+                <li className='p-3  text-3xl hover:text-[#cb5ab8] font-bold'>
                
                       About
                 
@@ -36,13 +36,13 @@ const Navbar = () => {
                 </Link>
             
                 <Link href='/#services' scroll={false}>
-                <li className='p-3 text-3xl ml-4 hover:text-[#cb5ab8]'>
+                <li className='p-3 text-3xl ml-4 hover:text-[#cb5ab8] font-bold'>
                  Services
                 
                 </li>
                 </Link>
                 <Link href='/#mission' scroll={false}>
-                <li className='p-3 text-3xl ml-3  hover:text-[#cb5ab8]'>
+                <li className='p-3 text-3xl ml-4  hover:text-[#cb5ab8] font-bold'>
                 Mission
                 </li>
                 </Link>

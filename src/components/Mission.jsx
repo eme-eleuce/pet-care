@@ -12,7 +12,7 @@ const Mission = () => {
       <p className="mb-8 leading-relaxed text-justify text-xl">At Soft Paws you will find a passion for animals and are committed to making a positive impact in the pet community.I actively support animal shelters and organizations, part of our profit goes to the <a href='https://www.instagram.com/famproa_oficial/?hl=es6'
           target={"_blank"}
           rel={"noreferrer"} 
-          className='underline text-rose-400 font-bold'>
+          className='underline text-teal-500 font-bold'>
              Famproa Fundation </a></p>
       
      
