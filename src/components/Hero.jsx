@@ -59,6 +59,9 @@ const Hero = ({ slides }) => {
         );
     })}
     </div>
+    <div className='absolute justify-center text-center mt-[36rem] lg:mt-[34.5rem] md:mt-[34rem] text-[#f13a64] cursor-pointer font-dos text-3xl md:text-5xl'>
+    <a className="md:bg-[#f7f7f7] rounded-md text-center p-2">The best for your bestfriends</a>
+    </div>
     </div>
   );
 };

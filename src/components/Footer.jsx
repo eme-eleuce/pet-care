@@ -5,10 +5,10 @@ import { ImWhatsapp } from 'react-icons/im';
 
 const Footer = () => {
   return (
-    <footer className="px-6 mt-8">
-  <div className="container px-10 py-8 mx-auto flex items-center sm:flex-row flex-col border-t-4 border-teal-500">
+    <footer className="px-4 md:px-6 mt-8">
+  <div className="container md:px-10 px-4 py-8 mx-auto flex items-center sm:flex-row flex-col border-t-4 border-teal-500">
     
-    <h1 className='flex text-2xl md:text-3xl md:ml-10 font-dos'>
+    <h1 className='flex text-2xl md:text-3xl md:ml-10 font-dos text-[#ef476f]'>
                         <Link href='/'>
                        SoftPaws PetCare🐾
                        </Link>

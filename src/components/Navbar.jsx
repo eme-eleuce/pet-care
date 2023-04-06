@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className=' flex grow items-center justify-start'>
              
                 
-                    <h1 className='flex text-2xl md:text-3xl md:ml-10 font-dos'>
+                    <h1 className='flex text-2xl md:text-3xl md:ml-10 font-dos text-[#f22b59]'>
                         <Link href='/'>
                        SoftPaws PetCare🐾
                        </Link>
