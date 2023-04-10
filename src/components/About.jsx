@@ -5,12 +5,25 @@ import Logo1 from '../photos/foto1.jpg';
 const About = () => {
   return (
     <div id='about' className="relative w-full  pb-7 md:pt-10 md:pb-4 mt-10 ">
-      <h1 className='font-bold text-4xl mb-4 py-10 mt-6 text-center font-dos text-[#ef476f]'>
+      -{/*<h1 className='font-bold text-4xl mb-4 py-10 mt-6 text-center font-dos text-[#ef476f]'>
     The best for your bestfriends
-  </h1>
+  </h1> */}
+  <div className="container  py-6 mx-auto items-center justify-center">
+<div className="flex text-center mb-16 items-center justify-center">
+<a href="#_" className="relative   inline-block  md:px-[7rem] px-20 md:py-8 py-6 overflow-hidden text-rose-600 rounded-lg  group">
+<span className="absolute top-0 left-0 w-[16rem] h-[16rem] -mt-10 -ml-6 transition-all duration-700 bg-[#e95d7b] rounded-full blur-md ease"></span>
+<span className="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+<span className="absolute bottom-0 left-0 w-[16rem] h-[16rem] -ml-7 bg-teal-400 rounded-full blur-md"></span>
+<span className="absolute bottom-0 right-0 w-[16rem] h-[16rem] -mr-20 bg-[#fada73] rounded-full blur-md"></span>
+</span>
+<span className="relative text-white font-bold text-2xl">Book here</span>
+</a>
+    </div>
+    </div>
   <div>
+
  
-  <div className=" relative mx-auto md:mx-[8rem] flex px-7 md:py-24 py-[1rem] md:flex-row flex-col items-center bg-gradient-to-r from-red-100 via-teal-100 to-yellow-100 rounded-xl">
+  <div className=" relative mx-auto md:mx-[8rem] flex px-7 md:py-24 py-[1rem] md:flex-row flex-col items-center rounded-xl border-4 border-teal-400">
   
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
     <Image src={Logo1} className='w-full h-full rounded-full' alt='/'/>

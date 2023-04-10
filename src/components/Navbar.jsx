@@ -12,7 +12,7 @@ const Navbar = () => {
     }
     
   return (
-    <div  className='fixed top-0 left-0 w-full z-10 ease duration-500 bg-teal-500 text-black'>
+    <div  className='fixed top-0 left-0 w-full z-10 ease duration-500 bg-teal-400 text-black'>
         <div className=' max-w-[1240px] h-[5rem] items-center w-full flex  p-4 mb-[2px] z-10 '>
             {/*Lado Izquierdo */}
             

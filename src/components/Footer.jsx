@@ -6,7 +6,7 @@ import { ImWhatsapp } from 'react-icons/im';
 const Footer = () => {
   return (
     <footer className="px-4 md:px-6 mt-8">
-  <div className="container md:px-10 px-4 py-8 mx-auto flex items-center sm:flex-row flex-col border-t-4 border-teal-500">
+  <div className="container md:px-10 px-4 py-8 mx-auto flex items-center sm:flex-row flex-col border-t-4 border-teal-400">
     
     <h1 className='flex text-2xl md:text-3xl md:ml-10 font-dos text-[#ef476f]'>
                         <Link href='/'>

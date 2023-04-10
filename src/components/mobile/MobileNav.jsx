@@ -18,7 +18,7 @@ const MobileNav = () => {
      <div onClick={handleNav} className='block sm:hidden z-10  '>
     {nav ? <AiOutlineClose size={30} />  : <AiOutlineMenu size={30} />}
   </div>
-    <div className={nav ? 'sm:hidden absolute top-0 bottom-0 left-0 right-0 w-full h-screen flex justify-center items-center bg-teal-500 text-center ease-in duration-300' : 'sm:hidden absolute top-0 bottom-0 left-[-100%] right-0 w-full h-screen flex justify-center items-center bg-teal-500 text-center ease-in duration-300'}>
+    <div className={nav ? 'sm:hidden absolute top-0 bottom-0 left-0 right-0 w-full h-screen flex justify-center items-center bg-teal-400 text-center ease-in duration-300' : 'sm:hidden absolute top-0 bottom-0 left-[-100%] right-0 w-full h-screen flex justify-center items-center bg-teal-400 text-center ease-in duration-300'}>
     <ul>
         <li onClick={() => setNav(false)} className='p-4 hover:text-[#ef476f] text-5xl mb-5'>
         <Link href='/#about' scroll={false}> About</Link>
