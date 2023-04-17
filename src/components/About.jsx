@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Logo1 from '../photos/foto1.jpg';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -10,13 +11,21 @@ const About = () => {
   </h1> */}
   <div className="container  py-6 mx-auto items-center justify-center">
 <div className="flex text-center mb-16 items-center justify-center">
-<a href="#_" className="relative   inline-block  md:px-[7rem] px-20 md:py-8 py-6 overflow-hidden text-rose-600 rounded-lg  group">
+<a  className="relative   inline-block  md:px-[7rem] px-20 md:py-8 py-6 overflow-hidden text-rose-600 rounded-lg  group">
 <span className="absolute top-0 left-0 w-[16rem] h-[16rem] -mt-10 -ml-6 transition-all duration-700 bg-[#e95d7b] rounded-full blur-md ease"></span>
 <span className="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
 <span className="absolute bottom-0 left-0 w-[16rem] h-[16rem] -ml-7 bg-teal-400 rounded-full blur-md"></span>
 <span className="absolute bottom-0 right-0 w-[16rem] h-[16rem] -mr-20 bg-[#fada73] rounded-full blur-md"></span>
 </span>
-<span className="relative text-white font-bold text-2xl">Book here</span>
+
+<span className="relative text-white font-bold text-2xl">
+<a href='https://softpaws-104715.square.site/'
+          target={"_blank"}
+          rel={"noreferrer"} 
+          className=''>
+             Book Here </a>
+</span>
+
 </a>
     </div>
     </div>

@@ -31,7 +31,11 @@ const Mission = () => {
 <span className="absolute bottom-0 left-0 w-[16rem] h-[16rem] -ml-7 bg-teal-400 rounded-full blur-md"></span>
 <span className="absolute bottom-0 right-0 w-[16rem] h-[16rem] -mr-20 bg-[#fada73] rounded-full blur-md"></span>
 </span>
-<span className="relative text-white font-bold text-2xl">Book here</span>
+<span className="relative text-white font-bold text-2xl"><a href='https://softpaws-104715.square.site/'
+          target={"_blank"}
+          rel={"noreferrer"} 
+          className=''>
+             Book Here </a></span>
 </a>
     </div>
     </div>
